@@ -1,0 +1,9 @@
+# Copyrigth (C) 2021 metraTec GmbH
+
+menu "Zephyr"
+source "Kconfig.zephyr"
+endmenu
+
+module = SIMTEST
+module-str= SIMTEST
+source "subsys/logging/Kconfig.template.log_config"
